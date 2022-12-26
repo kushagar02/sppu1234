@@ -36,7 +36,7 @@ class Stack
 			{
 				n=arr[top];
 				top--;
-				cout<<"The Element Deleted from the Queue is :"<<n;
+				cout<<"The Element Deleted from the Stack is :"<<n;
 				return n;
 			}
 		}
@@ -44,11 +44,11 @@ class Stack
 		{
 			if(top==-1)
 			{
-				cout<<"Queue is Empty.";
+				cout<<"Stack is Empty.";
 			}
 			else
 			{
-				cout<<"The Linear Queue is : ";
+				cout<<"The Stack is : ";
 				for(int i=0;i<=top;i++)
 				{
 					cout<<arr[i]<<" ";
